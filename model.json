@@ -1,0 +1,253 @@
+{
+  "model": "model.moc",
+  "textures": [
+    "textures/36.png",
+    "textures/21.png",
+    "textures/15.png",
+    "textures/1.png",
+    "textures/10.png",
+    "textures/11.png",
+    "textures/12.png",
+    "textures/13.png",
+    "textures/14.png",
+    "textures/16.png",
+    "textures/17.png",
+    "textures/18.png",
+    "textures/19.png",
+    "textures/2.png",
+    "textures/20.png",
+    "textures/22.png",
+    "textures/23.png",
+    "textures/24.png",
+    "textures/25.png",
+    "textures/26.png",
+    "textures/27.png",
+    "textures/28.png",
+    "textures/29.png",
+    "textures/3.png",
+    "textures/30.png",
+    "textures/31.png",
+    "textures/32.png",
+    "textures/33.png",
+    "textures/34.png",
+    "textures/35.png",
+    "textures/37.png",
+    "textures/4.png",
+    "textures/5.png",
+    "textures/6.png",
+    "textures/7.png",
+    "textures/8.png",
+    "textures/9.png"
+  ],
+  "controllers": {
+    "param_hit": {},
+    "param_loop": {},
+    "key_trigger": {},
+    "eye_blink": {
+      "min_interval": 500,
+      "max_interval": 6000,
+      "enabled": true
+    },
+    "lip_sync": {
+      "gain": 5.0
+    },
+    "mouse_tracking": {
+      "smooth_time": 0.15,
+      "enabled": true
+    },
+    "auto_breath": {
+      "enabled": true
+    },
+    "extra_motion": {
+      "enabled": true
+    },
+    "accelerometer": {
+      "enabled": true
+    },
+    "microphone": {},
+    "transform": {},
+    "face_tracking": {
+      "enabled": true
+    },
+    "param_value": {},
+    "part_opacity": {},
+    "artmesh_opacity": {},
+    "artmesh_color": {},
+    "artmesh_culling": {
+      "default_mode": 0
+    },
+    "intimacy_system": {}
+  },
+  "hit_areas": [
+    {
+      "name": "face",
+      "id": "D_PSD.10",
+      "motion": "tap_face"
+    },
+    {
+      "name": "body",
+      "id": "D_PSD.04",
+      "motion": "tap_body"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "motions/WakeUp.mtn"
+      },
+      {
+        "file": "motions/Breath1.mtn"
+      },
+      {
+        "file": "motions/Breath2.mtn"
+      },
+      {
+        "file": "motions/Breath3.mtn"
+      },
+      {
+        "file": "motions/Breath5.mtn"
+      },
+      {
+        "file": "motions/Breath7.mtn"
+      },
+      {
+        "file": "motions/Breath8.mtn"
+      }
+    ],
+    "Leave30_20_30": [
+      {
+        "file": "motions/Sleeping.mtn"
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "motions/Touch Dere1.mtn"
+      },
+      {
+        "file": "motions/Touch Dere2.mtn"
+      },
+      {
+        "file": "motions/Touch Dere3.mtn"
+      },
+      {
+        "file": "motions/Touch Dere4.mtn"
+      },
+      {
+        "file": "motions/Touch Dere5.mtn"
+      },
+      {
+        "file": "motions/Touch Dere6.mtn"
+      }
+    ],
+    "tap_face": [
+      {
+        "file": "motions/Touch1.mtn",
+        "text": "诶嘿嘿(*‘ v`*)"
+      },
+      {
+        "file": "motions/Touch2.mtn",
+        "text": "怕怕"
+      },
+      {
+        "file": "motions/Fail.mtn",
+        "text": "警察叔叔，这里有个变态一直在摸我(ó﹏ò｡)"
+      },
+      {
+        "file": "motions/Touch4.mtn",
+        "text": "真…真是不知羞耻！"
+      },
+      {
+        "file": "motions/Touch5.mtn",
+        "text": "萝莉控是什么呀"
+      },
+      {
+        "file": "motions/Success.mtn",
+        "text": "喵喵喵～～～"
+      }
+    ],
+    "": [
+      {
+        "file": "motions/Breath1.mtn"
+      },
+      {
+        "file": "motions/Breath2.mtn"
+      },
+      {
+        "file": "motions/Breath3.mtn"
+      },
+      {
+        "file": "motions/Breath4.mtn"
+      },
+      {
+        "file": "motions/Breath5.mtn"
+      },
+      {
+        "file": "motions/Breath6.mtn"
+      },
+      {
+        "file": "motions/Breath7.mtn"
+      },
+      {
+        "file": "motions/Breath8.mtn"
+      },
+      {
+        "file": "motions/Fail.mtn"
+      },
+      {
+        "file": "motions/Sleeping.mtn"
+      },
+      {
+        "file": "motions/Success.mtn"
+      },
+      {
+        "file": "motions/Sukebei1.mtn"
+      },
+      {
+        "file": "motions/Sukebei2.mtn"
+      },
+      {
+        "file": "motions/Sukebei3.mtn"
+      },
+      {
+        "file": "motions/Touch Dere1.mtn"
+      },
+      {
+        "file": "motions/Touch Dere2.mtn"
+      },
+      {
+        "file": "motions/Touch Dere3.mtn"
+      },
+      {
+        "file": "motions/Touch Dere4.mtn"
+      },
+      {
+        "file": "motions/Touch Dere5.mtn"
+      },
+      {
+        "file": "motions/Touch Dere6.mtn"
+      },
+      {
+        "file": "motions/Touch1.mtn"
+      },
+      {
+        "file": "motions/Touch2.mtn"
+      },
+      {
+        "file": "motions/Touch3.mtn"
+      },
+      {
+        "file": "motions/Touch4.mtn"
+      },
+      {
+        "file": "motions/Touch5.mtn"
+      },
+      {
+        "file": "motions/Touch6.mtn"
+      },
+      {
+        "file": "motions/WakeUp.mtn"
+      }
+    ]
+  },
+  "options": {}
+}
